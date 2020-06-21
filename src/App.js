@@ -29,7 +29,7 @@ class App extends Component {
       this.setState(
         {
           players,
-          clicked: this.setState.clicked.concat(id),
+          clicked: this.state.clicked.concat(id),
           score: this.state.score +1,
           highScore: (this.state.highScore > this.state.score) ? this.state.highScore : this.state.highScore + 1,
           message: "You Guessed Correctly!"
