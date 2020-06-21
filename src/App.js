@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PlayerCard from "./components/PlayerCard";
-import Wrapper from "./components/Wrapper";
-import Nav from "./components/Nav";
+import PlayerCard from "../src/components/PlayerCard";
+import Wrapper from "../src/components/Wrapper";
+import Nav from "../src/components/Nav";
 import players from "./players.json";
 import "./App.css";
 
