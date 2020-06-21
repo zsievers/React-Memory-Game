@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PlayerCard from "./components/PlayerCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import Nav from "./components/Nav";
 import players from "./players.json";
 import "./App.css";
@@ -16,7 +15,7 @@ class App extends Component {
     message: "Click an image to begin!",
   };
 
-  randomizeCards = (arr) => {
+  handleRandomizeCards = (arr) => {
     for (let i = arr.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -25,59 +24,51 @@ class App extends Component {
   };
 
   handleClick = (id) => {
+    // guessing correctly = not the same id
     if (this.state.clicked.indexOf(id) === -1) {
-      this.handleIncrement();
-      this.setState({ clicked: this.state.clicked.concat(id) });
+      this.setState(
+        {
+          players,
+          clicked: this.setState.clicked.concat(id),
+          score: this.state.score +1,
+          highScore: (this.state.highScore > this.state.score) ? this.state.highScore : this.state.highScore + 1,
+          message: "You Guessed Correctly!"
+        }
+      );
     } else {
-      this.handleReset();
+      this.setState(
+        {
+          players,
+          clicked: [],
+          score: 0,
+          topScore: (this.state.score > this.state.highScore) ? this.state.score : this.state.highScore,
+          message: "You Guessed Incorrectly!"
+        }
+      );
     }
-  };
+    this.handleRandomizeCards(players);
+  }
 
-  handleIncrement = () => {
-    const newScore = this.state.score + 1;
-    this.setState({
-      score: newScore,
-      message: "You Guessed Correctly!",
-    });
-    if (newScore >= this.state.topScore) {
-      this.setState({
-        topScore: newScore,
-      });
-    } else if (newScore === 12) {
-      this.setState({
-        message: "You Win!",
-      });
-    }
-    this.handleShuffle();
-  };
-
-  handleReset = () => {
-    this.setState({
-      score: 0,
-      topScore: this.state.topScore,
-      message: "Click an Image to begin!",
-      clicked: [],
-    });
-    this.handleShuffle();
-  };
-
-  handleShuffle = () => {
-    let randomizedPlayers = this.randomizeCards(players);
-    this.setState({ players: randomizedPlayers });
-  };
-
+  // map over this.state.players and render a component for each player object
   render() {
     return (
       <Wrapper>
-        <Nav 
-        
+        <Nav
+          message = {this.state.message}
+          score = {this.state.score}
+          highScore = {this.state.highScore}
         />
-        <Title> </Title>
+        {/* <Title> </Title> */}
 
         {this.state.players.map((player) => (
           <PlayerCard 
-          
-          
+            handleClick = {this.handleClick}
+            id = {player.id}
+            key = {player.id}
+            name = {player.name}
+            message = {this.state.message}
+            image = {player.image}
+            score = {this.state.score}
           />
         ))}
       </Wrapper>
