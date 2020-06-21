@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Muhammad ALI",
+        "image": "./images/ALI.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Babe Ruth",
+        "image": "./images/BABE.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Larry Bird",
+        "image": "./images/BIRD.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Kobe Bryant",
+        "image": "./images/KOBE.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Lebron James",
+        "image": "./images/LBJ.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Luka Doncic",
+        "image": "../public/images/LUKA.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Patrick Mahomes",
+        "image": "../public/images/MAHOMES.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Christian McCaffrey",
+        "image": "../public/images/McCAFF.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "John McEnroe",
+        "image": "../public/images/MCENROE.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Michael Jordan",
+        "image": "../public/images/MJ.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Odell Beckham Jr.",
+        "image": "../public/images/OBJ.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Tiger Woods",
+        "image": "../public/images/TIGER.jpg", 
+        "clicked": false
+    }
+]
