@@ -1,0 +1,34 @@
+.navbar {
+    background: rgb(0, 1, 31);
+    border-bottom: 1px solid #a43029;
+    min-height: 70px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    z-index: 99;
+    white-space: nowrap;
+    padding-right: 50px;
+    text-align: center;
+  }
+  
+  .score {
+    margin: 0 2.5%;
+  }
+  
+  .scoreSplit {
+    color: #a43029;
+  }
+  
+  .navbar .correct {
+    color: #2e7d32;
+    -webkit-animation: 1s correct;
+    animation: 1s correct
+  }
+  
+  .navbar .incorrect {
+      color: #c62828;
+    -webkit-animation: 1s incorrect;
+    animation: 1s incorrect
+  }
+  
+  

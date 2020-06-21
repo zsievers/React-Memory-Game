@@ -32,43 +32,43 @@
     {
         "id": 6,
         "name": "Luka Doncic",
-        "image": "../public/images/LUKA.jpg",
+        "image": "./images/LUKA.jpg",
         "clicked": false
     },
     {
         "id": 7,
         "name": "Patrick Mahomes",
-        "image": "../public/images/MAHOMES.jpg",
+        "image": "./images/MAHOMES.jpg",
         "clicked": false
     },
     {
         "id": 8,
         "name": "Christian McCaffrey",
-        "image": "../public/images/McCAFF.jpg",
+        "image": "./images/McCAFF.jpg",
         "clicked": false
     },
     {
         "id": 9,
         "name": "John McEnroe",
-        "image": "../public/images/MCENROE.jpg",
+        "image": "./images/MCENROE.jpg",
         "clicked": false
     },
     {
         "id": 10,
         "name": "Michael Jordan",
-        "image": "../public/images/MJ.jpg",
+        "image": "./images/MJ.jpg",
         "clicked": false
     },
     {
         "id": 11,
         "name": "Odell Beckham Jr.",
-        "image": "../public/images/OBJ.jpg",
+        "image": "./images/OBJ.jpg",
         "clicked": false
     },
     {
         "id": 12,
         "name": "Tiger Woods",
-        "image": "../public/images/TIGER.jpg", 
+        "image": "./images/TIGER.jpg", 
         "clicked": false
     }
 ]

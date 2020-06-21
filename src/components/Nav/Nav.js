@@ -12,19 +12,19 @@ const Nav = props => {
 
     return (
         <nav className="navbar">
-            <ul>
-                <li className="title">
-                    {props.title}
-                </li>
+            
+                <h4 className="title">
+                    Clicky Game
+                </h4>
 
-                <li id="message" className={messageClass()}>
+                <h2 id="message" className={messageClass()}>
                     {props.message}
-                </li>
+                </h2>
 
-                <li>
-                    <span className="score">Score: {props.score}</span> <span className="scoreSplit">|</span> <span className="score">Top Score: {props.topScore}</span>
-                </li>
-            </ul>
+                <h4>
+                    <span className="score">Score: {props.score}</span> <span className="scoreSph3t">|</span> <span className="score">Top Score: {props.topScore}</span>
+                </h4>
+        
         </nav>
     )
 }

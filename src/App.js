@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PlayerCard from "../src/components/PlayerCard";
-import Wrapper from "../src/components/Wrapper";
-import Nav from "../src/components/Nav";
+import PlayerCard from "./components/PlayerCard";
+import Wrapper from "./components/Wrapper";
+import Nav from "./components/Nav";
 import players from "./players.json";
 import "./App.css";
 
@@ -58,8 +58,6 @@ class App extends Component {
           score = {this.state.score}
           highScore = {this.state.highScore}
         />
-        {/* <Title> </Title> */}
-
         {this.state.players.map((player) => (
           <PlayerCard 
             handleClick = {this.handleClick}
