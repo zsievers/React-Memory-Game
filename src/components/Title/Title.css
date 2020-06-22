@@ -1,0 +1,13 @@
+.title h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .title p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+  }
