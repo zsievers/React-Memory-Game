@@ -41,7 +41,7 @@ class App extends Component {
           players,
           clicked: [],
           score: 0,
-          topScore: (this.state.score > this.state.highScore) ? this.state.score : this.state.highScore,
+          highScore: (this.state.score > this.state.highScore) ? this.state.score : this.state.highScore,
           message: "You Guessed Incorrectly!"
         }
       );
