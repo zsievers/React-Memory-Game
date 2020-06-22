@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PlayerCard from "./components/PlayerCard";
 import Wrapper from "./components/Wrapper";
 import Nav from "./components/Nav";
+import Title from "./components/Title";
 import players from "./players.json";
 import "./App.css";
 
@@ -58,6 +59,9 @@ class App extends Component {
           score = {this.state.score}
           highScore = {this.state.highScore}
         />
+
+        <Title subtitle="Click on a player to earn points, but don't click on the same player more than once!">Clicky Game: Professional Sports Edition</Title>
+
         {this.state.players.map((player) => (
           <PlayerCard 
             handleClick = {this.handleClick}
