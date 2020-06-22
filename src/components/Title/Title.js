@@ -8,6 +8,7 @@ const styles = {
         color: "rgb(255,255,255",
         marginTop: "70px",
         textAlign: "center",
+        borderBottom: "1px solid rgb(0,1,31)",
     }
 }
 
