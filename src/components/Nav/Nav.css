@@ -22,14 +22,18 @@
     color: #2e7d32;
     -webkit-animation: 1s correct;
     animation: 1s correct;
-    margin-left: 35%;
+    margin-left: 38%;
   }
   
   .navbar .incorrect {
       color: #c62828;
     -webkit-animation: 1s incorrect;
     animation: 1s incorrect;
-    margin-left: 35%;
+    margin-left: 38%;
+  }
+
+  h2 {
+    margin-left: 38%;
   }
   
   
