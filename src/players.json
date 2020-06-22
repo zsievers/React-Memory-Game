@@ -19,54 +19,42 @@
     },
     {
         "id": 4,
-        "name": "Kobe Bryant",
-        "image": "./images/KOBE.jpg",
-        "clicked": false
-    },
-    {
-        "id": 5,
         "name": "Lebron James",
         "image": "./images/LBJ.jpg",
         "clicked": false
     },
     {
-        "id": 6,
-        "name": "Luka Doncic",
-        "image": "./images/LUKA.jpg",
-        "clicked": false
-    },
-    {
-        "id": 7,
+        "id": 5,
         "name": "Patrick Mahomes",
         "image": "./images/MAHOMES.jpg",
         "clicked": false
     },
     {
-        "id": 8,
+        "id": 6,
         "name": "Christian McCaffrey",
         "image": "./images/McCAFF.jpg",
         "clicked": false
     },
     {
-        "id": 9,
+        "id": 7,
         "name": "John McEnroe",
         "image": "./images/MCENROE.jpg",
         "clicked": false
     },
     {
-        "id": 10,
+        "id": 8,
         "name": "Michael Jordan",
         "image": "./images/MJ.jpg",
         "clicked": false
     },
     {
-        "id": 11,
+        "id": 9,
         "name": "Odell Beckham Jr.",
         "image": "./images/OBJ.jpg",
         "clicked": false
     },
     {
-        "id": 12,
+        "id": 10,
         "name": "Tiger Woods",
         "image": "./images/TIGER.jpg", 
         "clicked": false
