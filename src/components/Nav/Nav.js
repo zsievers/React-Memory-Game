@@ -5,7 +5,7 @@ const Nav = props => {
     const messageClass = () => {
         if (props.message === "You Guessed Correctly!") {
             return "correct";
-        } else if (props.message === "You Guess Incorrectly!") {
+        } else if (props.message === "You Guessed Incorrectly!") {
             return "incorrect";
         }
     }
@@ -22,7 +22,7 @@ const Nav = props => {
                 </h2>
 
                 <h4>
-                    <span className="score">Score: {props.score}</span> <span className="scoreSph3t">|</span> <span className="score">Top Score: {props.topScore}</span>
+                    <span className="score">Score: {props.score}</span> <span className="scoreSplit">|</span> <span className="score">High Score: {props.highScore}</span>
                 </h4>
         
         </nav>
