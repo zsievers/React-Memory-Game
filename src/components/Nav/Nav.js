@@ -13,10 +13,6 @@ const Nav = props => {
     return (
         <nav className="navbar">
             
-                <h4 className="title">
-                    Clicky Game
-                </h4>
-
                 <h2 id="message" className={messageClass()}>
                     {props.message}
                 </h2>
