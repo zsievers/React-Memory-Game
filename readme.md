@@ -7,6 +7,7 @@ Clicky Game: Professional Sports Edition is a memory game built with React. On c
 
 # Demo (via GitHub Pages)
 https://zsievers.github.io/React-Memory-Game/
+<br>
 <img src = "./public/images/clicky-game-ss.PNG" width="900" height="500">
 
 # Technologies Used
