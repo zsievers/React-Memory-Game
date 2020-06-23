@@ -1,11 +1,5 @@
 [
     {
-        "id": 1,
-        "name": "Muhammad ALI",
-        "image": "./images/ALI.jpg",
-        "clicked": false
-    },
-    {
         "id": 2,
         "name": "Babe Ruth",
         "image": "./images/BABE.jpg",
