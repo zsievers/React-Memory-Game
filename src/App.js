@@ -50,7 +50,6 @@ class App extends Component {
     this.handleRandomizeCards(players);
   }
 
-  // map over this.state.players and render a component for each player object
   render() {
     return (
       <Wrapper>
