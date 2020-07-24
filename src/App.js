@@ -61,7 +61,7 @@ class App extends Component {
         />
 
         <Title subtitle="Click on a player to earn points, but don't click on the same player more than once!">Clicky Game: Professional Sports Edition</Title>
-
+      <div className="container">
         {this.state.players.map((player) => (
           <PlayerCard 
             handleClick = {this.handleClick}
@@ -73,6 +73,7 @@ class App extends Component {
             score = {this.state.score}
           />
         ))}
+        </div>
       </Wrapper>
     );
   }
